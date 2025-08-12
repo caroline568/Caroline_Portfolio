@@ -1,0 +1,145 @@
+/* ===== Global Styles ===== */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+
+}
+
+/* ===== container ===== */ 
+.Container {
+    max-width: 900px; /* control the width */
+    margin:0 auto; /*center the box */
+    background-color: #fff; /* white box background */
+    padding: 20px; /*space inside the box */
+    border: 1px solid #ccc; /*thin gray border */
+    border-radius: 10px; /* rounded corners */
+    
+}
+
+/* ===== Header Section ===== */
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+
+}
+
+header .meta .role {
+    color: #ffcc00;
+    font-weight: bold;
+
+}
+
+header address a {
+    color: #ccc;
+    text-decoration: none;
+    display: inline-flex;
+    margin-right: 10px;
+
+}
+
+header address a:hover {
+    color: #ffcc00;
+}
+
+/* ===== Section cards ===== */
+.Card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+
+}
+
+/* ===== Headings ===== */
+h2 {
+    color: #222;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-flex;
+    margin-bottom: 15px;
+    margin-bottom: 5px;
+
+
+}
+
+/* ===== Lists ===== */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+
+}
+
+.Skills li {
+    display: inline-flex;
+    background: #ffcc00;
+    color: #222;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+
+
+}
+
+/* ===== Links ===== */
+.Links a {
+    display: inline-flex;
+    background: #222;
+    color: #fff;
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-decoration: none;
+
+
+}
+
+.links a:hover {
+    background: #ffcc00;
+    color: #222;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background: #222;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 770pxpx) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    header img {
+        margin-bottom: 10px;
+    }
+}
